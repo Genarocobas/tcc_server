@@ -1,0 +1,17 @@
+{
+    "db": {
+        "name": "db",
+        "connector": "memory"
+    },
+    "mysql": {
+        "connector": "mysql",
+        "name": "mysql",
+        "host": "sql10.freemysqlhosting.net",
+        "port": 3306,
+        "url": "",
+        "database": "sql10253445",
+        "user": "sql10253445",
+        "password": "Vidalokashow09"
+    }
+
+}

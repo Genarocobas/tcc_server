@@ -1,0 +1,22 @@
+{
+    "name": "appAccessToken",
+    "base": "AccessToken",
+    "idInjection": false,
+    "options": {
+        "validateUpsert": true,
+        "mysql": {
+            "table": "appAccessToken"
+        }
+    },
+    "properties": {},
+    "validations": [],
+    "relations": {
+        "user": {
+            "type": "belongsTo",
+            "model": "employee",
+            "foreignKey": "userId"
+        }
+    },
+    "acls": [],
+    "methods": {}
+}
