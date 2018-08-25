@@ -1,4 +1,4 @@
-var server = require('./server');
+var server = require('../server/server');
 var ds = server.dataSources.mysql;
 
 /**

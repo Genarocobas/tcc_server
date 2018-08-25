@@ -1,5 +1,5 @@
 var unique = require('array-unique');
-var app = require('./server');
+var app = require('../server/server');
 
 var models = app.models();
 
