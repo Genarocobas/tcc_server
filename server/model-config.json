@@ -1,40 +1,36 @@
 {
-  "_meta": {
-    "sources": [
-      "loopback/common/models",
-      "loopback/server/models",
-      "../common/models",
-      "./models"
-    ],
-    "mixins": [
-      "loopback/common/mixins",
-      "loopback/server/mixins",
-      "../common/mixins",
-      "./mixins"
-    ]
-  },
-  "appACL": {
-    "dataSource": "mysql",
-    "public": false
-  },
-  "appAccessToken": {
-    "dataSource": "mysql",
-    "public": false
-  },
-  "appRoleMapping": {
-    "dataSource": "mysql",
-    "public": false
-  },
-  "appRole": {
-    "dataSource": "mysql",
-    "public": false
-  },
-  "employee": {
-    "dataSource": "mysql",
-    "public": true
-  },
-  "employees": {
-    "dataSource": "mysql",
-    "public": true
-  }
+    "_meta": {
+        "sources": [
+            "loopback/common/models",
+            "loopback/server/models",
+            "../common/models",
+            "./models"
+        ],
+        "mixins": [
+            "loopback/common/mixins",
+            "loopback/server/mixins",
+            "../common/mixins",
+            "./mixins"
+        ]
+    },
+    "appACL": {
+        "dataSource": "mysql",
+        "public": false
+    },
+    "appAccessToken": {
+        "dataSource": "mysql",
+        "public": false
+    },
+    "appRoleMapping": {
+        "dataSource": "mysql",
+        "public": false
+    },
+    "appRole": {
+        "dataSource": "mysql",
+        "public": false
+    },
+    "employee": {
+        "dataSource": "mysql",
+        "public": true
+    }
 }
