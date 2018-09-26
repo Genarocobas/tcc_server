@@ -4,14 +4,13 @@
         "connector": "memory"
     },
     "mysql": {
-        "connector": "mysql",
         "name": "mysql",
+        "connector": "mysql",
         "host": "db4free.net",
         "port": 3306,
         "url": "",
         "database": "tccnfc",
-        "user": "guilhermeyabu",
-        "password": "12345678"
+        "password": "12345678",
+        "user": "guilhermeyabu"
     }
-
 }
