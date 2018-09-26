@@ -24,6 +24,11 @@
             "options": {
                 "disableInclude": true
             }
+        },
+        "journeyTimes": {
+            "type": "hasMany",
+            "model": "journeyTime",
+            "foreignKey": "userId"
         }
     },
     "acls": [],

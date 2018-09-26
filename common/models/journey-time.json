@@ -1,0 +1,26 @@
+{
+    "name": "journeyTime",
+    "plural": "journeyTimes",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "point": {
+            "type": "date",
+            "required": true,
+            "defaultFn": "$now"
+        }
+    },
+    "validations": [],
+    "relations": {
+        "user": {
+            "type": "belongsTo",
+            "model": "employee",
+            "foreignKey": "userId"
+        }
+    },
+    "acls": [],
+    "methods": {}
+}

@@ -32,5 +32,9 @@
     "employee": {
         "dataSource": "mysql",
         "public": true
+    },
+    "journeyTime": {
+        "dataSource": "mysql",
+        "public": true
     }
 }

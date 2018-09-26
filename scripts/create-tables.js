@@ -9,7 +9,7 @@ var ds = server.dataSources.mysql;
  * 
  * Obs. Os relacionamentos presentes nos modelos não serão replicados nas tabelas, os mesmos devem ser criados manualmente.
  */
-var lbTables = ['appACL', 'appAccessToken', 'appRoleMapping', 'appRole', 'employee'];
+var lbTables = ['appACL', 'appAccessToken', 'appRoleMapping', 'appRole', 'employee', 'journeyTime'];
 ds.automigrate(lbTables, function(er) {
   if (er){
     throw er;
