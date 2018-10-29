@@ -2,7 +2,7 @@
 
 module.exports = function(Journeytime) {
 	
-	Journeytime.createPoint(data, cb) {
+	Journeytime.createPoint = function(data, cb) {
 		data.point = new Date()
 		Journeytime.create(data, function(errorCreate, instanceCreate) {
 			if (errorCreate) {
