@@ -10,7 +10,7 @@ module.exports = function(Journeytime) {
 			} else {
 				cb(null, "Ponto registrado com sucesso.")
 			}
-		}
+		})
 	}
 	
 	Journeytime.remoteMethod(
