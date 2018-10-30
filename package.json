@@ -7,7 +7,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "node .",
+    "start": "env TZ='America/Sao_Paulo' node .",
     "posttest": "npm run lint"
   },
   "dependencies": {
